@@ -19,5 +19,9 @@
     return rxChar;
   }
 
+  void BTSerial::BTpintln(char *message){
+    Serial.println(message);
+  }
+
 
 
