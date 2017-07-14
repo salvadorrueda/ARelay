@@ -12,6 +12,8 @@
   Relay(int pin);
   void setup();
   void changeState();
+  void setState(int state);
+  void writeState();
  };
 
  #endif

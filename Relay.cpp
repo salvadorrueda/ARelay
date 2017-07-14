@@ -19,8 +19,13 @@
     }else{
       relayState = 0;
     }
-    digitalWrite(relayPin, relayState);
   }
 
+  void Relay::setState(int state){
+    relayState = state;
+  }
 
+  void Relay::writeState(){
+    digitalWrite(relayPin, relayState);
+  }
 
