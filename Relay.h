@@ -13,6 +13,7 @@
   void setup();
   void changeState();
   void setState(int state);
+  int getState();
   void writeState();
  };
 

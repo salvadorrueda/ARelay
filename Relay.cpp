@@ -25,6 +25,10 @@
     relayState = state;
   }
 
+  int Relay::getState(){
+    return relayState;
+  }
+
   void Relay::writeState(){
     digitalWrite(relayPin, relayState);
   }

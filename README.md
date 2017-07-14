@@ -2,7 +2,10 @@
 ARelay is an Arduino Relay with some extras.
 
 Hardware:
- Button. ON/OFF the Relay.
+ Relay
+ Button ON/OFF the Relay
+ HC-06 Serial Bluetooth
+ Oled 0.96 128x64 SSD1306 I2C
 
 
 
