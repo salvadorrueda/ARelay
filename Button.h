@@ -10,8 +10,8 @@
  * 
  */
 
- #ifndef _Button_h
- #define _Button_h
+#ifndef _Button_h
+#define _Button_h
 
  #include "Arduino.h"
 

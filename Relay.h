@@ -1,5 +1,5 @@
- #ifndef _Relay_h
- #define _Relay_h
+#ifndef _Relay_h
+#define _Relay_h
 
  #include "Arduino.h"
 
@@ -16,5 +16,5 @@
   void writeState();
  };
 
- #endif
+#endif
 
