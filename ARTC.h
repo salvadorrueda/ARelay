@@ -10,9 +10,7 @@
   tmElements_t tm; 
   
   public:
-  ARTC();
-  void setup();
-  void getHourTime();
+  void getHourTime(char *ntimes);
  };
 
 #endif

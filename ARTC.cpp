@@ -1,18 +1,7 @@
  #include "Arduino.h"
  #include "ARTC.h"
 
- 
-  ARTC::ARTC(){
-    int nHour=9;
-  }
-
-  void ARTC::setup(){
-    int nHour=9;
-    
-  }
-
-  void ARTC::getHourTime(){
-    char *ntimes = "00:00 ON  06:00 > OWL";
+  void ARTC::getHourTime(char *ntimes){
     int nHour, nMinute, n0Hour, n1Hour, n0Minute, n1Minute; 
     
     if (RTC.read(tm)) {
