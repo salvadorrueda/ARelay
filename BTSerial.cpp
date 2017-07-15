@@ -19,7 +19,7 @@
     return rxChar;
   }
 
-  void BTSerial::BTpintln(char *message){
+  void BTSerial::BTprintln(char *message){
     Serial.println(message);
   }
 

@@ -33,3 +33,16 @@
     digitalWrite(relayPin, relayState);
   }
 
+  void Relay::setRelayStateToMessage(char *message){
+    
+    if(relayState) {
+      message[7]='N'; 
+      message[8]=' ';
+    }else{
+      message[7]='F';
+      message[8]='F';
+    }
+  }
+ 
+
+

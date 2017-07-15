@@ -10,7 +10,7 @@
   tmElements_t tm; 
   
   public:
-  void getHourTime(char *ntimes);
+  void setHourTimeToMessage(char *message);
  };
 
 #endif

@@ -15,6 +15,7 @@
   void setState(int state);
   int getState();
   void writeState();
+  void setRelayStateToMessage(char *message);
  };
 
 #endif

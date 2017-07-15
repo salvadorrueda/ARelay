@@ -13,7 +13,7 @@ class BTSerial{
   BTSerial(int bps);  // Button constructor initializes button object variables
   void setup();     // setup the button object
   char BTread();    // Returns char  
-  void BTpintln(char *message);  // print
+  void BTprintln(char *message);  // print
 };
 
 #endif
