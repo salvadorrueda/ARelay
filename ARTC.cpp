@@ -1,4 +1,3 @@
-
  #include "Arduino.h"
  #include "ARTC.h"
 
@@ -12,11 +11,9 @@
     
   }
 
-  String ARTC::getHourTime(){
+  void ARTC::getHourTime(){
     char *ntimes = "00:00 ON  06:00 > OFF";
     int nHour, nMinute, n0Hour, n1Hour, n0Minute, n1Minute; 
-    //String nSHourMinute(ntime);
-    String nSHourMinute;
     
     if (RTC.read(tm)) {
       n0Hour = tm.Hour/10;
@@ -29,11 +26,7 @@
       ntimes[1]=n1Hour+'0';
       ntimes[3]=n0Minute+'0';
       ntimes[4]=n1Minute+'0';
-
-//nSHourMinute(ntime);
-    }
-    
-    return nSHourMinute;
+    }    
   }
 
 

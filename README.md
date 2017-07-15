@@ -1,6 +1,8 @@
 # ARelay
 ARelay is an Arduino Relay with some extras.
 
+Project still in progress
+
 Hardware:
  Relay
  Button ON/OFF the Relay

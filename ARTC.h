@@ -12,7 +12,7 @@
   public:
   ARTC();
   void setup();
-  String getHourTime();
+  void getHourTime();
  };
 
 #endif
