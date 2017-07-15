@@ -12,7 +12,7 @@
   }
 
   void ARTC::getHourTime(){
-    char *ntimes = "00:00 ON  06:00 > OFF";
+    char *ntimes = "00:00 ON  06:00 > OWL";
     int nHour, nMinute, n0Hour, n1Hour, n0Minute, n1Minute; 
     
     if (RTC.read(tm)) {
