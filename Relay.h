@@ -6,7 +6,7 @@
  class Relay{
   int relayPin;        // the number of the Relay pin  
   
-  int relayState;    // state of the Relay
+  int relayState;     // state of the Relay
   
   public:
   Relay(int pin);
