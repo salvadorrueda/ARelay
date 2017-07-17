@@ -1,4 +1,3 @@
- 
 #ifndef _BTSerial_h
 #define _BTSerial_h
 

@@ -18,5 +18,6 @@
   void setRelayStateToMessage(char *message);
  };
 
+
 #endif
 

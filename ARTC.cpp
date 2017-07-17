@@ -19,7 +19,7 @@
 
     message[10]=alarm[0];
     message[11]=alarm[1];
-    message[12]=':';
+    message[12]=alarm[2];
     message[13]=alarm[3];
     message[14]=alarm[4];
 
@@ -38,7 +38,6 @@
   int ARTC::checkAlarm(){
     // check if the time is the same of the Alarm 
     // ATriggered. To avoid multiple calls during the alarm (one minute) 
-
     
     int n0Hour, n1Hour, n0Minute, n1Minute;
     int isAlarm = 0;
@@ -80,7 +79,7 @@
   void ARTC::setAlarmRelay(char *malarm){
     alarm[0] = malarm[0];
     alarm[1] = malarm[1];
-    //alarm[2] = ':';
+    alarm[2] = malarm[2];
     alarm[3] = malarm[3];
     alarm[4] = malarm[4];
   }

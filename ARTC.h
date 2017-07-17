@@ -8,10 +8,9 @@
 
  class ARTC{
   tmElements_t tm; 
-  char alarm[6]="00:00";
+  char alarm[6]="ALARM"; // 00:00
   int ARelayState = 0;
   int ATriggered = 0; // To avoid multiple calls during the alarm (one minute) 
-
   
   public:
   void setHourTimeToMessage(char *message);

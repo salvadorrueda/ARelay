@@ -1,4 +1,3 @@
-
 /*
  * Button OOP (Object Oriented Programming)
  * Turns on and off the relay, when a pushbutton attached to pin 2 is pressed.

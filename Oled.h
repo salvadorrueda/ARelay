@@ -6,7 +6,6 @@
 #include <Adafruit_SSD1306.h>
 
 
-
 #define XPOS 0
 #define YPOS 1
 
