@@ -9,7 +9,7 @@
  class ARTC{
   tmElements_t tm; 
   char alarm[6]="ALARM"; // 00:00
-  int ARelayState = 0;
+  int ARelayState = 0; // 1 > On, 0 > Off
   int ATriggered = 0; // To avoid multiple calls during the alarm (one minute) 
   
   public:
